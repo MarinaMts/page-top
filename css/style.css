@@ -1,0 +1,104 @@
+body, html{
+  height:100%;
+  margin: 0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:black;
+} 
+  
+.aimg1, .aimg2, .aimg3, .aimg4{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+} 
+
+.aimg1{
+  background-image:url('../img/Background\ 2.jpg');
+  min-height:100%;
+  /*imagem 1 */
+}
+
+.aimg2{
+  background-image:url('../img/Background 3.jpg');
+  min-height:400px;
+  /*imagem 2*/
+}
+
+.aimg3{
+  background-image:url('../img/Background 4.jpg');
+  min-height:400px;
+  /*imagem 3*/
+}
+
+.aimg4{
+  background-image:url('../img/TylerAndJosh_2.jpg');
+  min-height:650px;
+  opacity:90%;
+  /*imagem 4*/
+}
+
+.section{
+  text-align:center;
+  padding:40px 80px;
+  /*todos os blocos escritos*/
+}
+
+.section-first-last{ 
+  background-color:#718dbc;
+  color:black;
+  /*primeiro e quarto bloco escrito*/
+}
+
+.section-others{
+  background-color:#93d1de;
+  color: black;
+  /*segundo e terceiro bloco escrito*/
+}
+
+.section a{
+  color: #3d3a39;
+  font-weight: bold;
+ text-decoration: none;
+}
+
+.section a:hover{
+ color: #f9a4cb;
+}
+
+.section p{
+  text-indent: 5em;
+}
+
+.btext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+  /*texto do bloco das imagens*/
+}
+
+.btext .border{
+  background-color: #3d3a39;
+  color: white;
+  padding:50px;
+ /*caixa do bloco*/
+}
+  
+.btext .border.trans{
+  background-color: transparent;
+  /*outros 2 blocos*/
+}
+.list{
+  display: flex;
+  align-items: center;
+  margin:0 20px 0 50px
+}
+
